@@ -1,0 +1,163 @@
+@charset "UTF-8";
+body{
+    background-image: url(imagens/matematica.jpeg);
+
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.892);
+    color: white;
+    text-align: center;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    font-size: 3em;
+    margin-top: 30px;
+    
+    
+}
+input{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+    margin: auto;
+}
+.dados{
+    text-align: center;
+}
+.calcular{
+    text-align: center;
+    width: 70px;
+    margin: auto;
+}
+h2{
+    font: 1.5em normal arial;
+    text-align: center;
+    color: white;
+    border-radius: 5px 0px 5px 0px;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.892);
+    color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin: auto;
+    font-size: 1.5em;
+    
+}
+.botao{
+    background-color: transparent;
+    color: white;
+    width: 150%;
+    border-color: white;
+    font-size: 20px;
+    
+      
+}
+.botao2{
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    border-color: white;
+    width: 40%;
+    display: block;
+    margin: auto;
+    text-size-adjust: auto;
+    font-size: 20px;
+
+}
+strong{
+   color: yellow;
+   
+}
+
+.aparecer{
+    display:none
+
+}
+footer{
+   
+    color: black;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+    margin-top: 30px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+/*Responsivo*/
+
+@media(max-width:800px){
+
+    .botao{
+        background-color: transparent;
+        color: white;
+        width: 100%;
+        border-color: white;
+        font-size: 13px;
+        
+          
+    }
+    .botao2{
+        background-color: transparent;
+        text-align: center;
+        color: white;
+        border-color: white;
+        width: 70%;
+        display: block;
+        margin: auto;
+        text-size-adjust: auto;
+        font-size: 13px;
+
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.892);
+    height: 25px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-top: 30px;       
+}
+
+h2{
+    font: 1.5em normal arial;
+    text-align: center;
+    color: white;
+    font-size: 13.5px;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.892);
+    color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin: auto;
+    font-size: 10px;   
+}
+
+footer{   
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    margin: auto;
+    text-align: left;
+    margin-top: 30px;    
+}
+}
