@@ -38,8 +38,8 @@
                 res.innerHTML += `<p>Não existe raizes reais para essa equação.</p>`
             }
             res.innerHTML += `<input type="button" value="Clique aqui para ver o passo a passo" onclick="passoapasso()" class="botao2">
-    <div class="eq"></div>`
-        }}
+            <div class="eq"></div>`
+            }}
             
         function passoapasso(){
             var txta = window.document.querySelector(`input#txta`)
@@ -86,7 +86,6 @@
                 <p> <strong> Equação 2 = ${eq2} </strong>`}
             else{
                 eq.innerHTML += `Não exite raízes reais para essa equação, pois a &#916 é menor ou igual à 0.`
-                }
-                
+                }        
         }
         
