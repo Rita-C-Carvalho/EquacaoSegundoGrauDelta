@@ -12,8 +12,8 @@
             var raiz = (Math.sqrt(delta))
             var x1 = (- b + raiz)/ (2 * a)
             var x2 = (- b - raiz)/ (2 * a)
-            var x1 = (x1.toFixed(3))
-            var x2 = (x2.toFixed(3))
+            var x1 = parseFloat(x1.toFixed(3))
+            var x2 = parseFloat(x2.toFixed(3))
            
             if(txta.value.length == 0 || txtb.value.length == 0 ||txtc.value.length == 0){
                 window.alert('Por favor digite números para a, b e c.')
@@ -52,20 +52,23 @@
             var raiz = (Math.sqrt(delta))
             var x1 = (- b + raiz)/ (2 * a)
             var x2 = (- b - raiz)/ (2 * a)
-            var x1 = (x1.toFixed(3))
-            var x2 = (x2.toFixed(3))
+            var x1 = parseFloat(x1.toFixed(3))
+            var x2 = parseFloat(x2.toFixed(3))
             var eq = window.document.querySelector(`div.eq`)
             var aparecer = window.document.querySelector(`div.aparecer`)
             var eq1 = a * (x1 * x1) + (b * x1) + c
             var eq2 = a * (x2 * x2) + (b * x2) + c
-            var eq1 = (eq1.toFixed(1))
-            var eq2 = (eq2.toFixed(1))
+            var eq1 = parseFloat(eq1.toFixed(1))
+            var eq2 = parseFloat(eq2.toFixed(1))
             
            
 
-            eq.innerHTML = `<p>Os valores digitados para <strong>a</strong>, <strong>b</strong> e <strong>c</strong>, correspondentes, são: <strong>${a}</strong>, <strong>${b}</strong> e <strong>${c}</strong>.</p> <h2> Cálculo da Delta &#916 `
+            eq.innerHTML = `<p>Os valores digitados para <strong>a</strong>, <strong>b</strong> e <strong>c</strong>, 
+            correspondentes, são: <strong>${a}</strong>, <strong>${b}</strong> e <strong>${c}</strong>.</p> 
+            <h2> Cálculo da Delta &#916 </h2>`
             
-            eq.innerHTML += `</h2> <p> &#916 = b² -4 * a *c </p><p> &#916 = (${b} * ${b}) - 4 * ${a} * ${c}</p> <p> <strong>&#916 = ${delta}</strong></p>`
+            eq.innerHTML += `</h2> <p> &#916 = b² -4 * a *c </p><p> &#916 = (${b} * ${b}) - 4 * ${a} * ${c}</p> 
+            <p> <strong>&#916 = ${delta}</strong></p>`
 
             if(delta > 0 && eq1 == 0.0 && eq2 == 0.0){
                 eq.innerHTML += `<h2> Aplicando a fórmula de Bhaskara</h2> <p> x = (- b +- √&#916) / 2 * a</p> 
