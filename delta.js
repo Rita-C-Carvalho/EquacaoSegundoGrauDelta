@@ -18,18 +18,18 @@
             if(txta.value.length == 0 || txtb.value.length == 0 ||txtc.value.length == 0){
                 window.alert('Por favor digite números para a, b e c.')
             }else{
-
-   
             res.innerHTML = `<p> O valor de <strong>a</strong> é <strong>${a}</strong>, 
             o valor de <strong>b</strong> é <strong>${b}</strong> e o valor de <strong>c</strong> é <strong>${c}<strong>.</p>`
 
             res.innerHTML += `<p> O valor de <strong>Delta</strong> é <strong>${delta}</strong>.`
+
             if(delta < 0){
                 res.innerHTML += `Equação inexistente, pois a <strong>Delta</strong> é negativa.`
             }
             else{
                 res.innerHTML += `A raiz de <strong>Delta</strong> é: <strong>${raiz}</strong>` 
             }
+            
             if(delta > 0){
             res.innerHTML += `<p>O valor de <strong>X1</strong> é: <strong>${x1}</strong> e o 
             valor de <strong>X2</strong> é: <strong>${x2}</strong>.</p>`
