@@ -1,7 +1,7 @@
     
-            var txta = window.document.querySelector(`input#txta`)
-            var txtb = window.document.querySelector(`input#txtb`)
-            var txtc = window.document.querySelector(`input#txtc`)
+            let txta = window.document.querySelector(`input#txta`)
+            let txtb = window.document.querySelector(`input#txtb`)
+            let txtc = window.document.querySelector(`input#txtc`)
 
         function calculara(){
             let res = window.document.querySelector(`div.res`)
